@@ -1,0 +1,94 @@
+:root {
+    background-image: url('./HaLongBay.jpg');
+    color: #030303;
+    background-size: cover;
+    font-size: 1em;
+    background-color: rgba(243, 231, 231, 0.845);
+}
+
+body {
+    grid-template-areas: 'header'
+                         'main';
+    font-size: 1.2em;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+     grid-area: main;
+}
+
+h1:first-of-type {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: -2px -2px 0px white,  
+    1px -2px 0px white,  
+    -1px 1px 0px white,  
+    1px 1px 0px white;
+    margin-top: 1em;
+}
+
+main h1 {
+    text-align: center;
+}
+
+div.submit-container {
+    text-align: center;
+}
+
+div.start button, .submit-container button {
+    padding: .8em 1.3em;
+    background-color: white;
+    border-radius: 1.5em;
+    color: #0B5351;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 2em;
+}
+
+.submit-container button {
+    font-size: 1em;
+}
+
+div.start {
+    display: flex;
+    justify-content:center;
+    margin-top: 6em;
+}
+
+.question-container {
+    justify-content: center;
+    margin-bottom: 2em;
+    padding: 1em 2em;
+    background-color: rgb(255, 244, 244, 0.8);
+    width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+
+.question-container p {
+   padding: 1em 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feedbacks {
+        justify-content: center;
+        margin-bottom: 2em;
+        padding: 1em 2em;
+        background-color: rgb(255, 244, 244, 0.8);
+        width: fit-content;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 1em;
+
+}
+
+
+
+
+
